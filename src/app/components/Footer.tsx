@@ -3,7 +3,7 @@ import { JSX, SVGProps } from "react";
 const items = [
   {
     name: "GitHub",
-    href: "https://github.com/rutguo/transparse",
+    href: "https://github.com/rutguo/pokedex-web",
     icon: (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -21,7 +21,7 @@ const Footer = () => {
     <footer>
       <div className="mx-auto max-w-7xl px-6 flex justify-between lg:px-8 pb-8">
         <p className="text-sm/6 text-black/50 -mt-0.5">
-          Transparse — Electronic Data Interchange
+          Pokédex
         </p>
         <div className="flex justify-center gap-x-6">
           {items.map((item) => (

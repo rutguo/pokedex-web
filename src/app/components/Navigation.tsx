@@ -1,6 +1,5 @@
 "use client";
 import { usePathname } from "next/navigation";
-
 import {
   Disclosure,
   DisclosureButton,
@@ -10,9 +9,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Dashboard", href: "/" },
-  { name: "Connections", href: "/connections" },
-  { name: "Customers", href: "/customers" },
-  { name: "Settings", href: "/settings" },
+  { name: "Pokémon", href: "/pokemon" },
+  { name: "Abilities", href: "/abilities" },
+  { name: "Natures", href: "/natures" },
 ];
 
 function classNames(...classes: string[]) {

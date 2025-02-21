@@ -10,9 +10,9 @@ const font = Funnel_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Transparse — Electronic Data Interchange",
+  title: "Pokédex",
   description:
-    "A Next.js-based parser for Transpas Enterprise EDI files, designed to transform digital transport order formats into a TPE-compatible XML structure. 🚛",
+    "",
 };
 
 export default function RootLayout({
