@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Funnel_Display } from "next/font/google";
 import "./globals.css";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 const font = Funnel_Display({
   subsets: ["latin"],
@@ -19,8 +21,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full bg-background text-black">
-      <body className={`${font.className} h-full `}>{children}</body>
+    <html lang="en" className="h-full bg-gray-100 text-black">
+      <body className={`${font.className} h-full `}>
+        <Navigation />
+        <main className="-mt-32">
+          <div className="mx-auto max-w-7xl px-4 pb-4 sm:pb-6 sm:px-6 lg:px-8">
+            <div className="rounded-lg bg-white px-5 py-6 shadow sm:px-6 h-96">
+              {children}
+            </div>
+          </div>
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }
