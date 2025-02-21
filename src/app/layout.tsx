@@ -4,7 +4,7 @@ import "./globals.css";
 
 const font = Funnel_Display({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  weight: ["300", "500", "700"],
 });
 
 export const metadata: Metadata = {
@@ -19,10 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${font.className} bg-asphalt text-marking`}>
-        {children}
-      </body>
+    <html lang="en" className="h-full bg-background text-black">
+      <body className={`${font.className} h-full `}>{children}</body>
     </html>
   );
 }

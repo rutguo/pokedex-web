@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        asphalt: "#050709",
-        marking: "#e6f1f1",
+        background: "#001829",
+        primary: "#00A7E1",
       },
     },
   },
