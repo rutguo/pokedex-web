@@ -12,7 +12,7 @@ const font = Funnel_Display({
 export const metadata: Metadata = {
   title: "Pokédex",
   description:
-    "",
+    "This is a Next.js app with Tailwind CSS that lets you explore all first-gen Pokémon, powered by the Pokédex API. ✨",
 };
 
 export default function RootLayout({
