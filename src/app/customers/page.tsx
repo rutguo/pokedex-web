@@ -1,3 +1,3 @@
 export default function Customers() {
-  return <p>Customers</p>;
+  return <div className="h-96"></div>;
 }

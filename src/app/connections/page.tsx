@@ -1,3 +1,3 @@
 export default function Connections() {
-  return <p>Connections</p>;
+  return <div className="h-96"></div>;
 }

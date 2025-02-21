@@ -25,8 +25,8 @@ export default function RootLayout({
       <body className={`${font.className} h-full `}>
         <Navigation />
         <main className="-mt-32">
-          <div className="mx-auto max-w-7xl px-4 pb-4 sm:pb-6 sm:px-6 lg:px-8">
-            <div className="rounded-lg bg-white px-5 py-6 shadow sm:px-6 h-96">
+          <div className="mx-auto max-w-7xl pb-4 sm:pb-6 sm:px-6">
+            <div className="rounded-lg bg-white sm:pb-4 shadow sm:px-6">
               {children}
             </div>
           </div>

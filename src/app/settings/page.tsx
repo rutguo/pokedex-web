@@ -1,3 +1,3 @@
 export default function Settings() {
-  return <p>Settings</p>;
+  return <div className="h-96"></div>;
 }
